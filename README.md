@@ -33,17 +33,4 @@ Adafruit MAX31865 library (Handling of the sensor's analog-to-digital conversion
 
 TinyGSM (Seamless handling of AT commands and communication with the SIMCom modem).
 
-🔌 Wiring Diagram (ESP32 Pinout)
-Connections between the LilyGo T-A7670E board and the MAX31865 module are made on the ESP32's hardware SPI bus:
 
-VIN ➔ 3V3
-
-GND ➔ GND
-
-CLK ➔ GPIO 18
-
-SDO (MISO) ➔ GPIO 19
-
-SDI (MOSI) ➔ GPIO 23
-
-CS ➔ GPIO 5
