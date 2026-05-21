@@ -14,7 +14,7 @@ This project involves the design, schematic capture, and routing of a printed ci
 
 ▰ **Layer Count** ➢ 1 layer (Bottom).
 
-▰ **Main Components** ➢ LilyGo T-A7670, Adafruit MAX31865, and a PT100 probe.
+▰ **Main Components** ➢ LilyGo T-A7670E, Adafruit MAX31865, and a PT100 probe.
 
 ## 《 WIRING SCHEMATIC 》
 
