@@ -16,6 +16,11 @@ This project involves the design, schematic capture, and routing of a printed ci
 
 ▰ **Main Components** ➢ LilyGo T-A7670, Adafruit MAX31865, and a PT100 probe.
 
+## 《 WIRING SCHEMATIC 》
+
+<img width="1251" height="532" alt="WiringSchemeV4" src="https://github.com/user-attachments/assets/f34e2a77-2f21-49fb-9488-f6a784210613" />
+
+
 ## 《 PROJECT STRUCTURE 》
 
 ▰ **`*.kicad_pro`** ➢ Main KiCad project file.
