@@ -10,9 +10,11 @@ Ce projet consiste en la conception, la saisie du schéma et le routage d'un cir
 *   **Logiciel de CAO :** KiCad 9.0
 *   **Règles de conception (Design Rules) :**
     *   Largeur des pistes par défaut : 20th (0.508 mm)
-*   **Nombre de couches :** <!-- Ex: 2 couches (Top / Bottom) -->
+*   **Nombre de couches :** 1 couches (Bottom) -->
 *   **Composants principaux :**
-    *   <!-- Liste tes composants clés ici -->
+   - Lilygo T-A7670
+   - Adafruit Max31875
+   - PT100
 
 ## 📁 Structure du Projet
 *   `*.kicad_pro` : Fichier principal du projet KiCad.
