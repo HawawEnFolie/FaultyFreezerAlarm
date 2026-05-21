@@ -1,4 +1,4 @@
-# ⚡ Projet Carte Électronique - TP
+# ⚡ Shemas / PCB
 
 Ce dépôt contient l'ensemble des fichiers de conception matérielle (Hardware) de la carte électronique réalisée dans le cadre de ce projet.
 
@@ -10,7 +10,7 @@ Ce projet consiste en la conception, la saisie du schéma et le routage d'un cir
 *   **Logiciel de CAO :** KiCad 9.0
 *   **Règles de conception (Design Rules) :**
     *   Largeur des pistes par défaut : 20th (0.508 mm)
-*   **Nombre de couches :** 1 couches (Bottom) -->
+*   **Nombre de couches :** 1 couches (Bottom)
 *   **Composants principaux :**
    - Lilygo T-A7670
    - Adafruit Max31875
