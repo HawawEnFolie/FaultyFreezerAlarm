@@ -15,7 +15,7 @@
 #define MODEM_RST 5
 #define MODEM_DTR 25  
 #define BAT_EN 12  
-#define GSM_PIN "4545"
+#define GSM_PIN "XXXX"
 
 HardwareSerial SerialAT(1);
 TinyGsm Modem(SerialAT);
@@ -28,10 +28,13 @@ Adafruit_MAX31865 Thermo = Adafruit_MAX31865(MAX_CS);
 
 // - - - - - [ ALERT NUMBERS ] - - - - -
 const char* ALERT_NUMBERS[] = {
-  "+33761650411",
-  "+33111111111"
+  "+33000000000",
+  "+33111111111",
+  "+33222222222",
+  "+33333333333",
+  "+33444444444"
 };
-String TARGET_FREEZER = "ARN Fridge";
+String TARGET_FREEZER = "Micro-biology freezer n°2";
 const int NUMBER_COUNT = sizeof(ALERT_NUMBERS) / sizeof(ALERT_NUMBERS[0]);
 
 // - - - - - [ THRESHOLDS ] - - - - -
@@ -113,7 +116,7 @@ void setup() {
     }
 
     if (Modem.waitForNetwork(60000L, true)) {
-      Serial.println("[ OK ] Modem connected to the cellular network.");
+      Serial.println("[ INFO ] Modem connected to the 4G cellular network.");
     } else {
       Serial.println("[ ERROR ] Unable to register on the mobile network.");
     }
@@ -141,7 +144,7 @@ void loop() {
 // - - - - - [ TOO COLD ] - - - - -
     if (Temperature < TOO_COLD_THRESHOLD) {
       if (!tooColdAlertActive) {
-        String msg = "ALERT '" + TARGET_FREEZER + "': Abnormally LOW temperature at " + String(Temperature, 2) + " C. Check the compressor!";
+        String msg = "ALERT '" + TARGET_FREEZER + "': Abnormally LOW temperature at " + String(Temperature, 2) + " C.";
         if (SendAlertToAll(msg)) tooColdAlertActive = true;
       }
     } else {
@@ -153,7 +156,7 @@ void loop() {
 // - - - - - [ TOO HOT ] - - - - -
     if (Temperature > TOO_HOT_THRESHOLD) {
       if (!tooHotAlertActive) {
-        String msg = "MAJOR ALERT '" + TARGET_FREEZER + "': Freezer stopped or open! Temperature at " + String(Temperature, 2) + " C!";
+        String msg = "MAJOR ALERT '" + TARGET_FREEZER + "': Freezer stopped probe taked out! Temperature at " + String(Temperature, 2) + " C!";
         if (SendAlertToAll(msg)) tooHotAlertActive = true;
       }
     } else {
