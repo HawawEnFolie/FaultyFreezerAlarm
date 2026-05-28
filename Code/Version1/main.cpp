@@ -85,7 +85,7 @@ const int NUMBERS_COUNT = sizeof(ALERT_NUMBERS) / sizeof(ALERT_NUMBERS[0]);
 
 enum Menu { TEMPERATURE, MIN_MAX, THRESHOLDS, DIAGNOSTIC, TEST_SMS, REBOOT, BATTERY };
 
-// Prototypes
+// - - - - - [ PROTOTYPES ] - - - - -
 void updateDisplay();
 bool sendAlertToAll(String message);
 void turnOnModem();
