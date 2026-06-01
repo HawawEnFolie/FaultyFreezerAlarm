@@ -2,8 +2,9 @@
 
 ## ⟪ DESCRIPTION ⟫
 
-This repository contains the hardware design files (schematics and PCB routing) for version 2.0 of the **FaultyFreezerAlarm** project. The hardware has been iteratively developed to meet the specific telemetry and monitoring requirements of the -80°C freezers at the UPPA microbiology laboratories. 
+This repository contains all the hardware design files for the electronic board created as part of this project.
 
+This project involves the design, schematic capture, and routing of a printed circuit board (PCB) meeting the specifications of the system requirements.
 This major revision builds upon the core system (V1.4) by introducing local monitoring capabilities, ambient room temperature tracking, and a physical interface for on-site interaction.
 
 ## ⟪ TECHNICAL SPECIFICATIONS ⟫
