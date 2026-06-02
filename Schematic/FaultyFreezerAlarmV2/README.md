@@ -21,7 +21,7 @@ This major revision builds upon the core system (V1.4) by introducing local moni
 
 ## ⟪ WIRING SCHEMATIC ⟫
 
-<img width="1336" height="777" alt="WiringSchemeV2 2" src="https://github.com/user-attachments/assets/a8a2a814-302e-4fec-ae33-0bb59ff694af" />
+<img width="1306" height="815" alt="WiringSchemeV2 3" src="https://github.com/user-attachments/assets/44477e06-b25b-484d-af4a-467cb4e20c1e" />
 
 ## ⟪ PROJECT STRUCTURE ⟫
 
