@@ -6,7 +6,7 @@ This repository contains the source code and documentation for a critical teleme
 
 ## ⟪ FEATURES ⟫
 
-**▰ High-Precision Acquisition ⪢** Temperature reading every 10 seconds via an industrial PT100 probe and a MAX31865 amplifier (SPI communication).
+**▰ High-Precision Acquisition ⪢** Temperature reading every 10 minutes via an industrial PT100 probe and a MAX31865 amplifier (SPI communication).
 
 **▰ Cellular Connectivity ⪢** Automated SMS alerts sent over the mobile network using AT commands on a SIMCom A7670E module.
 
