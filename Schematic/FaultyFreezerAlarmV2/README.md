@@ -1,11 +1,10 @@
-# Faulty Ultralow-temperature Freezer Alarm - Schematics V2.0
+# Faulty Ultralow-temperature Freezer Alarm - Schematics V2.5
 
 ## ⟪ DESCRIPTION ⟫
 
-This repository contains all the hardware design files for the electronic board created as part of this project.
+This repository contains the hardware design files (schematics and PCB routing) for version 2.5 of the **FaultyFreezerAlarm** project. The hardware has been iteratively developed to meet the specific telemetry and monitoring requirements of the -80°C freezers at the UPPA microbiology laboratories. 
 
-This project involves the design, schematic capture, and routing of a printed circuit board (PCB) meeting the specifications of the system requirements.
-This major revision builds upon the core system (V1.4) by introducing local monitoring capabilities, ambient room temperature tracking, and a physical interface for on-site interaction.
+This major revision builds upon the core system (V1.4) by introducing local monitoring capabilities, ambient room temperature tracking, a physical interface for on-site interaction, and a power outage detection circuit.
 
 ## ⟪ TECHNICAL SPECIFICATIONS ⟫
 
@@ -17,11 +16,11 @@ This major revision builds upon the core system (V1.4) by introducing local moni
 
 ▰ **Core Components** ➢ LilyGo T-A7670E (ESP32-WROVER with integrated 4G LTE modem), Adafruit MAX31865 RTD amplifier, and PT100 temperature probe interface.
 
-▰ **Added Peripherals (V2.0)** ➢ TMP102 ambient temperature sensor, local alert buzzer, and SSD1315 OLED display module equipped with 4 built-in navigation buttons.
+▰ **Added Peripherals (V2.5)** ➢ TMP102 ambient temperature sensor, local alert buzzer, SSD1315 OLED display module equipped with 4 built-in navigation buttons, and a voltage divider (R1 10kΩ / R2 20kΩ) connected to the USB VBUS pin for power loss detection.
 
 ## ⟪ WIRING SCHEMATIC ⟫
 
-<img width="1090" height="707" alt="WiringSchemeV2 5" src="https://github.com/user-attachments/assets/33725fa1-a795-4531-9ca4-cc7ca3994376" />
+<img width="1090" height="707" alt="WiringSchemeV2 5" src="https://github.com/user-attachments/assets/a503183a-ab60-4b19-8bc6-0a146e51e3ff" />
 
 ## ⟪ PROJECT STRUCTURE ⟫
 
@@ -43,4 +42,3 @@ This major revision builds upon the core system (V1.4) by introducing local moni
 
 **Robin Paniagua Desclaux**
 *Student in BTS CIEL ER (1st year)*
-
