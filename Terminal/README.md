@@ -34,5 +34,5 @@ This directory contains the Python-based desktop application used as the central
 
 ## ⟪ LICENSE ⟫
 
-The source code of this interface is licensed under the **GNU General Public License v2.0 (GPLv2)**. 
-See the main repository LICENSE file for more details regarding the hardware and C++ firmware.
+The source code of this interface is licensed under the **GNU General Public License v3.0 (GPLv3)**. 
+See the main repository LICENSE file for more details.
