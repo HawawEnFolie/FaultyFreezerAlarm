@@ -42,6 +42,11 @@ This repository contains the source code and documentation for a critical teleme
 
 **▰** TinyGSM (Seamless handling of AT commands and communication with the SIMCom modem).
 
+## ⟪ LICENSE ⟫
+The source code of this project is licensed under **GPLv3**.
+The hardware design files (Schematics, PCB, 3D models) are licensed under **CERN-OHL-S v2**.
+See the LICENSE and cern_ohl_s_v2.txt files for more details.
+
 
 
 
