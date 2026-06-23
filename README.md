@@ -8,7 +8,7 @@ This repository contains the source code and documentation for a critical teleme
 
 **▰ High-Precision Acquisition ⪢** Temperature reading every 10 minutes via an industrial PT100 probe and a MAX31865 amplifier (SPI communication).
 
-**▰ Cellular Connectivity ⪢** Automated SMS alerts sent over the mobile network using AT commands on a SIMCom A7670E module.
+**▰ Cellular Connectivity ⪢** Automated messages sent over the mobile data network directly to a WhatsApp group using an HTTP API gateway on a SIMCom A7670E module
 
 **▰ Anti-Spam Logic ⪢** The system includes a software lock to send only one SMS when the threshold is crossed, automatically resetting once the temperature stabilizes below a set level, so as not a flood the target phones with multiple SMS.
 
